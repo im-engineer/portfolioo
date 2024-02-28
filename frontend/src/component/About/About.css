@@ -1,0 +1,137 @@
+.about {
+  min-height: 100vh;
+  background-color: rgb(255, 255, 255);
+}
+
+.about-img {
+  margin-top: 40px;
+  pointer-events: none;
+}
+
+.about-imgg {
+  margin-top: 40px;
+  pointer-events: none;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+}
+
+.about-description {
+  margin-top: 40px;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+@media (min-width: 992px) and (max-width: 1380px) {
+  .about-description > h2 {
+    font-size: 3.3rem;
+    margin-bottom: 30px;
+  }
+  .about-description > p {
+    font-size: 1.15rem;
+  }
+
+  .about-img > img {
+    width: 300px;
+  }
+
+  .lcr-buttonContainer {
+    margin-top: 1rem;
+    flex-direction: column;
+    width: 200px;
+    height: 120px;
+    align-items: flex-start;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .about .line-styling {
+    top: 20px;
+  }
+
+  .about-body {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .about-description {
+    flex: 0.6;
+    box-sizing: border-box;
+    /* padding: 5% 10%; */
+    padding: 20px;
+  }
+
+  .about-description > h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+
+  .about-description > p {
+    font-size: 1.1rem;
+  }
+
+  .about-img > img {
+    width: 250px;
+    flex: 0.4;
+  }
+
+  .lcr-buttonContainer {
+    margin-top: 1rem;
+    flex-direction: column;
+    width: 200px;
+    height: 120px;
+    align-items: flex-start;
+  }
+  .lcr-buttonContainer button:nth-child(2) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .about .line-styling .style-circle {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+  }
+  .about-description > h2 {
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about .line-styling .style-circle {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+  }
+  .about .line-styling .style-line {
+    width: 93%;
+    height: 3px;
+    border-radius: 10px;
+  }
+
+  .about-description > h2 {
+    font-size: 2.5rem;
+  }
+
+  .about-description > p {
+    font-size: 0.95rem;
+  }
+
+  .about-img > img {
+    width: 200px;
+  }
+
+  .lcr-buttonContainer {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .lcr-buttonContainer button {
+    margin-top: -20%;
+  }
+}
