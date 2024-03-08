@@ -72,8 +72,9 @@ function Landing() {
           </div>
         </div>
         <div className="get-in-touch">
-          <button>Get In Touch</button>
-        </div>
+  <a href="mailto:azmsiddhant@gmail.com"><button>Get In Touch</button></a>
+</div>
+
       </div>
     </>
   );

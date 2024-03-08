@@ -23,7 +23,9 @@ function Project() {
           <div className="body--col--1">
             <div className="data1">
               <div className="project---img">
-                <img src={img1} alt="" className="image1" />
+                <a href="https://mean.stagingsdei.com:9193/" target="_blank">
+                  <img src={img1} alt="" className="image1" />
+                </a>
               </div>
             </div>
 

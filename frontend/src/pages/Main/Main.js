@@ -15,6 +15,7 @@ export default function Main() {
       <Projects />
       <Skills />
       <Experience />
+      <Contact />
     </div>
   );
 }
