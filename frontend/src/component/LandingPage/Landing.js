@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./Landing.css";
 import socialsData from "../../Data/socialData";
-import resume from "../../assets/resume/ssrresume.pdf";
+// import resume from "../../assets/resume/ssrresume.pdf";
 import { FaTwitter, FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 
 function Landing() {
@@ -70,6 +70,9 @@ function Landing() {
               </a>
             )}
           </div>
+        </div>
+        <div className="get-in-touch">
+          <button>Get In Touch</button>
         </div>
       </div>
     </>

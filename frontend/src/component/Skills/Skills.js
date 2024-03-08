@@ -8,15 +8,21 @@ import skillsImage from "../../utils/skillsImage";
 
 function Skills() {
   const skillBoxStyle = {
-    backgroundColor: "#4995B2",
-    boxShadow: `0px 0px 30px #ffff`,
+    backgroundColor: "#ffff",
+    boxShadow: `0px 0px 30px #49b29b`,
   };
 
   return (
-    <div className="skills" style={{ backgroundColor: "#4995B2" }}>
-      <div className="skillsHeader">
-        <h2 style={{ color: "#fff" }}>Skills</h2>
+    <div className="skills">
+      <div className="line-styling">
+        <div className="style-circle"></div>
+        <div className="style-circle"></div>
+        <div className="style-line"></div>
       </div>
+      <div className="skillsHeader">
+        <h3>Technology have been working</h3>
+      </div>
+
       <div className="skillsContainer">
         <div className="skill--scroll">
           <Marquee
@@ -31,7 +37,7 @@ function Skills() {
             {skillsData.map((skill, id) => (
               <div className="skill--box" key={id} style={skillBoxStyle}>
                 <img src={skillsImage(skill)} alt={skill} />
-                <h3 style={{ color: "#ffff" }}>{skill}</h3>
+                <h3 style={{ color: "#49b29b" }}>{skill}</h3>
               </div>
             ))}
           </Marquee>

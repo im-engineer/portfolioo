@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import { aboutData } from "../../Data/aboutData";
-import img from "../../Data/image/MicrosoftTeams-image (1).png";
+import img from "../../Data/image/Siddhant.png";
 
 function About() {
   return (

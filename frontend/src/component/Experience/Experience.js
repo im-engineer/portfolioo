@@ -1,34 +1,18 @@
 import React from "react";
-
 import "./Experience.css";
-import expimg from "../../assets/svg/experience/expPink.svg";
-import experienceData from "../../Data/experienceData";
-import ExperienceCard from "./ExperienceCard";
 
 function Experience() {
   return (
-    <div
-      className="experience"
-      id="experience"
-      style={{ backgroundColor: "#ffff" }}
-    >
+    <div className="experience" id="experience">
+      <div className="line-styling">
+        <div className="style-circle"></div>
+        <div className="style-circle"></div>
+        <div className="style-line"></div>
+      </div>
+      <h3 className="experience-header">Experience</h3>
+      <div className="experience-line"></div>
       <div className="experience-body">
-        <div className="experience-image">
-          <img src={expimg} alt="" />
-        </div>
-        <div className="experience-description">
-          <h1 style={{ color: "#000000" }}>Experience & Education</h1>
-          {experienceData.map((exp) => (
-            <ExperienceCard
-              key={exp.id}
-              id={exp.id}
-              jobtitle={exp.jobtitle}
-              company={exp.company}
-              startYear={exp.startYear}
-              endYear={exp.endYear}
-            />
-          ))}
-        </div>
+        <div className="experience-description"></div>
       </div>
     </div>
   );

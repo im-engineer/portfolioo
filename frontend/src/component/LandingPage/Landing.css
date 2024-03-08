@@ -6,6 +6,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
 .personalInfo {
@@ -106,6 +107,26 @@
   background-color: #89abe3ff;
   color: #ffff;
   border: 3px solid #89abe3ff;
+}
+
+.get-in-touch {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.get-in-touch button {
+  /* background-color: #49b29b; */
+  color: #49b29b;
+  padding: 10px 40px;
+  border: 1px solid #49b29b;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.get-in-touch button:hover {
+  background-color: #cef1ea;
+  color: #49b29b;
 }
 
 @media (max-width: 1100px) {
