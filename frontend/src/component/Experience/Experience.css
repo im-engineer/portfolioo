@@ -5,7 +5,7 @@
   padding-left: 7rem;
 
   position: relative;
-  border: 2px solid rgb(0, 0, 0);
+  /* border: 2px solid rgb(0, 0, 0); */
 }
 
 .experience .line-styling {
@@ -48,10 +48,35 @@
 
 /* Add any additional styling as needed */
 
-.experience-description {
+/* .experience-description {
   border: 2px solid rgb(17, 69, 180);
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 10rem;
+} */
+
+/* .vertical-line {
+  width: 2px;
+  height: 80%; 
+  background-color: #333;
+  position: absolute;
+ 
+  transform: translateX(-50%); 
+  margin-bottom: 4rem;
+  margin-left: 15rem;
+} */
+
+.experience-description {
+  flex: 1; /* Allow the description to expand to fill remaining space */
+}
+
+.experience-details {
+  display: flex;
+  flex-direction: column; /* Arrange items vertically */
+  margin-right: 10px; /* Add margin to separate from vertical line */
+}
+
+.experience-item {
+  margin-bottom: 20px; /* Adjust spacing between items */
 }
