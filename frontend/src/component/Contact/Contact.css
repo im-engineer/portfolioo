@@ -1,5 +1,6 @@
-.contact{
-  border:2px solid black
+.contact {
+  /* border: 2px solid black; */
+  padding-top: 2rem;
 }
 
 #contact--page {
@@ -67,6 +68,24 @@
 .contacts-details h5 {
   padding-left: 5rem;
   text-align: center;
+}
+
+.say-hello {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.say-hello button {
+  color: #49b29b;
+  padding: 10px 40px;
+  border: 1px solid #49b29b;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.say-hello button:hover {
+  background-color: #cef1ea;
+  color: #49b29b;
 }
 
 @media (min-width: 992px) and (max-width: 1380px) {
@@ -146,6 +165,11 @@
     } */
 }
 
+.footer {
+  padding-top: 3rem;
+  padding: 3rem;
+  background-color: #c4eee5;
+}
 @media screen and (max-width: 600px) {
   .contacts-form {
     display: flex;

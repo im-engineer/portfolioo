@@ -1,8 +1,16 @@
 import React from "react";
 import "./Landing.css";
 import socialsData from "../../Data/socialData";
-// import resume from "../../assets/resume/ssrresume.pdf";
-import { FaTwitter, FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
+import {
+  FaTwitter,
+  FaLinkedin,
+  FaGithub,
+  FaInstagram,
+  FaHome,
+  FaMailBulk,
+  FaUserGraduate,
+  FaProjectDiagram,
+} from "react-icons/fa";
 
 function Landing() {
   return (
@@ -21,17 +29,36 @@ function Landing() {
               Siddhant Singh
             </span>{" "}
             <br />
-            <span
-              style={{
-                color: "#49b29b",
-                fontSize: "17px",
-              }}
-            >
+            <span style={{ color: "#49b29b", fontSize: "17px" }}>
               a full stack developer.
             </span>
           </h1>
         </div>
-        <div class="icon-bar">
+        <div className="navbar">
+          <ul className="navbar-list">
+            <li className="navbar-item">
+              <a href="/about">
+                <FaHome className="navbar-icon" />
+              </a>
+            </li>
+            <li className="navbar-item">
+              <a href="/project">
+                <FaProjectDiagram className="navbar-icon" />
+              </a>
+            </li>
+            <li className="navbar-item">
+              <a href="#portfolio">
+                <FaUserGraduate className="navbar-icon" />
+              </a>
+            </li>
+            <li className="navbar-item">
+              <a href="#contact">
+                <FaMailBulk className="navbar-icon" />{" "}
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div className="icon-bar">
           <div className="lcl--content">
             {socialsData.linkedIn && (
               <a href={socialsData.linkedIn} target="_blank" rel="noreferrer">
@@ -72,9 +99,10 @@ function Landing() {
           </div>
         </div>
         <div className="get-in-touch">
-  <a href="mailto:azmsiddhant@gmail.com"><button>Get In Touch</button></a>
-</div>
-
+          <a href="mailto:azmsiddhant@gmail.com">
+            <button>Get In Touch</button>
+          </a>
+        </div>
       </div>
     </>
   );

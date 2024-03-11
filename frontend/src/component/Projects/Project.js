@@ -1,5 +1,4 @@
 import React from "react";
-// import projectsData from "../../Data/projectData";
 import "./Project.css";
 
 import img1 from "../../Data/image/ECG.png";
@@ -23,7 +22,11 @@ function Project() {
           <div className="body--col--1">
             <div className="data1">
               <div className="project---img">
-                <a href="https://mean.stagingsdei.com:9193/" target="_blank">
+                <a
+                  href="http://ss.stagingsdei.com:9061/login"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img src={img1} alt="" className="image1" />
                 </a>
               </div>
@@ -31,19 +34,37 @@ function Project() {
 
             <div className="data1">
               <div className="project---img">
-                <img src={img2} alt="" className="image1" />
+                <a
+                  href="https://app.oxvirtualcare.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={img2} alt="" className="image1" />
+                </a>
               </div>
             </div>
 
             <div className="data1">
               <div className="project---img">
-                <img src={img3} alt="" className="image1" />
+                <a
+                  href="https://mean.stagingsdei.com:9193/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={img3} alt="" className="image1" />
+                </a>
               </div>
             </div>
 
             <div className="data1">
               <div className="project---img">
-                <img src={img4} alt="" className="image1" />
+                <a
+                  href="http://54.201.160.69:9189/login/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={img4} alt="" className="image1" />
+                </a>
               </div>
             </div>
           </div>

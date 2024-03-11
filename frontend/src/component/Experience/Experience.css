@@ -2,7 +2,10 @@
   color: #49b29b;
   text-align: right;
   padding-right: 7rem;
+  padding-left: 7rem;
+
   position: relative;
+  border: 2px solid rgb(0, 0, 0);
 }
 
 .experience .line-styling {
@@ -44,3 +47,11 @@
 }
 
 /* Add any additional styling as needed */
+
+.experience-description {
+  border: 2px solid rgb(17, 69, 180);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10rem;
+}

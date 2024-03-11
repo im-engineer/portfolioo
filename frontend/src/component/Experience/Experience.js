@@ -10,7 +10,7 @@ function Experience() {
         <div className="style-line"></div>
       </div>
       <h3 className="experience-header">Experience</h3>
-      <div className="experience-line"></div>
+      {/* <div className="experience-line"></div> */}
       <div className="experience-body">
         <div className="experience-description"></div>
       </div>

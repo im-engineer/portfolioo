@@ -23,6 +23,32 @@
   font-family: "BestermindRegular";
 }
 
+.navbar {
+  position: sticky;
+  top: 20%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 36%;
+  padding: 20px;
+  z-index: 1000;
+}
+
+.navbar-list {
+  list-style: none;
+  padding: 0;
+}
+
+.navbar-item {
+  margin-bottom: 10px;
+}
+
+.navbar-item a {
+  font-size: 35px;
+  color: #49b29b;
+  text-decoration: none;
+}
+
 .icon-bar {
   position: fixed;
   top: 50%;
@@ -45,68 +71,6 @@
   font-size: 35px;
   margin: 1rem;
   transition: transform 0.5s;
-}
-
-.landing--social:hover {
-  transform: scale(1.2);
-}
-
-.landing--container-right {
-  flex: 65%;
-  height: 100%;
-  background-color: #eaeaea;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: center;
-}
-
-.lcr--content {
-  width: 45%;
-  margin-right: 7rem;
-  font-family: var(--primaryFont);
-  font-style: normal;
-}
-
-.lcr--content h6 {
-  font-weight: 500;
-  font-size: 1.25rem;
-  margin-bottom: -0.85rem;
-  opacity: 0.8;
-}
-
-.lcr--content h1 {
-  font-weight: 600;
-  font-size: 3.25rem;
-  line-height: 110%;
-  margin: 1rem 0;
-}
-
-.lcr--content p {
-  margin-top: 1.45rem;
-  font-weight: 500;
-  font-size: 1.15rem;
-  opacity: 0.7;
-}
-
-.resumeBtn {
-  color: #ea738dff;
-  border-radius: 30px;
-  text-transform: inherit;
-  text-decoration: none;
-  width: 150px;
-  font-size: 1rem;
-  font-weight: 500;
-  height: 50px;
-  font-family: var(--primaryFont);
-  border: 3px solid #ea738dff;
-  transition: 100ms ease-out;
-}
-
-.reumeBtn:hover {
-  background-color: #89abe3ff;
-  color: #ffff;
-  border: 3px solid #89abe3ff;
 }
 
 .get-in-touch {
