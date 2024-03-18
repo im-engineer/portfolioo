@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2c9bd7d0.css",
+    "main.js": "/static/js/main.c8938fa5.js",
+    "static/media/Me.png": "/static/media/Me.45e259ad791d022dbcd0.png",
+    "static/media/Sid.pdf": "/static/media/Sid.37d49279ed6a8ef9bf76.pdf",
+    "static/media/DrivingSafety.png": "/static/media/DrivingSafety.79f5c38aea708bcc5cec.png",
+    "static/media/pxalm.png": "/static/media/pxalm.968edf3a1ee1653a8ebe.png",
+    "static/media/ECG.png": "/static/media/ECG.7d102bb4b4e959b00039.png",
+    "static/media/OXVirtualCare.png": "/static/media/OXVirtualCare.9d39b045be26389644c2.png",
+    "index.html": "/index.html",
+    "main.2c9bd7d0.css.map": "/static/css/main.2c9bd7d0.css.map",
+    "main.c8938fa5.js.map": "/static/js/main.c8938fa5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c9bd7d0.css",
+    "static/js/main.c8938fa5.js"
+  ]
+}
