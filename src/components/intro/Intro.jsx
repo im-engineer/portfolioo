@@ -30,12 +30,7 @@ const Intro = () => {
             </article>
           </div>
           <p>
-            1 year experience in the MEARN stack, having worked extensively on
-            frontend, backend, and database tasks, particularly in healthcare
-            projects. Proficient in tools like Trello, Jira and Jenkins, I
-            ensure efficient project management and seamless integration.
-            Excited to continue contributing to innovative projects that make a
-            difference.
+            With 1 experience in the MEARN stack, I specialize in frontend, backend, and database tasks, particularly within healthcare projects. Proficient in tools like Trello, Jira, and Jenkins, I ensure seamless project management and integration. I also work with microservices, Docker, Firebase, and Swagger REST API. Passionate about contributing to innovative projects, I am excited to continue making a difference.
           </p>
           <a href="#contact" className="btn btn-success">
             Let's Talk
